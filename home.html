@@ -1,218 +1,170 @@
-
-body {
-         font-family: Arial, sans-serif;
-         margin: 0;
-         padding: 0;
-         background-color: #f5f5f5;
-     }
-     .header {
-         background-color: #fff;
-         padding: 10px 20px;
-         border-bottom: 1px solid #ddd;
-         display: flex;
-         align-items: center;
-         justify-content: space-between;
-     }
-     .header .logo {
-         font-size: 24px;
-         font-weight: bold;
-         color: #4CAF50;
-     }
-     .header .search-bar {
-         flex-grow: 1;
-         margin: 0 20px;
-     }
-     .header .search-bar input {
-         width: 100%;
-         padding: 8px;
-         border: 1px solid #ddd;
-         border-radius: 4px;
-     }
-     .header .nav-links a {
-         margin: 0 10px;
-         text-decoration: none;
-         color: #333;
-     }
-     .main-content {
-         padding: 20px;
-     }
-     .main-content .section {
-         margin-bottom: 40px;
-     }
-     .main-content .section .section-header {
-         display: flex;
-         justify-content: space-between;
-         align-items: center;
-     }
-     .main-content .section .section-header h2 {
-         margin: 0;
-         font-size: 24px;
-         font-weight: normal;
-     }
-     .main-content .section .section-header a {
-         text-decoration: none;
-         color: #4CAF50;
-     }
-     .main-content .section .section-content {
-         display: flex;
-         align-items: center;
-         justify-content: space-between;
-     }
-     .main-content .section .section-content .text-content {
-         flex: 1;
-         margin-right: 20px;
-     }
-     .main-content .section .section-content .text-content p {
-         margin: 10px 0;
-     }
-     .main-content .section .section-content .text-content .btn {
-         background-color: #4CAF50;
-         color: #fff;
-         padding: 10px 20px;
-         border: none;
-         border-radius: 4px;
-         text-decoration: none;
-     }
-     .main-content .section .section-content .image-content {
-         flex: 1;
-         background-color: #ddd;
-         height: 300px;
-         display: flex;
-         align-items: center;
-         justify-content: center;
-     }
-     .main-content .section .section-content .image-content img {
-         max-width: 100%;
-         max-height: 100%;
-     }
-     .main-content .icons-section {
-         display: flex;
-         justify-content: space-between;
-         align-items: center;
-     }
-     .main-content .icons-section .icon-box {
-         flex: 1;
-         text-align: center;
-         padding: 20px;
-         background-color: #fff;
-         border: 1px solid #ddd;
-         border-radius: 4px;
-         margin: 0 10px;
-     }
-     .main-content .icons-section .icon-box i {
-         font-size: 48px;
-         color: #4CAF50;
-     }
-     .main-content .icons-section .icon-box p {
-         margin: 10px 0;
-     }
-     .main-content .tabs {
-         display: flex;
-         justify-content: center;
-         margin-bottom: 20px;
-     }
-     .main-content .tabs a {
-        margin: 0 20px;
-        text-decoration: none;
-        color: #333;
-        font-weight: bold;
-     }
-     .main-content .tabs a.active {
-          color: #6b8e23;
-     }
-     .main-content .events-grid {
-         display: flex;
-         flex-wrap: wrap;
-         justify-content: space-between;
-     }
-     .main-content .events-grid .event-card {
-         background-color: #fff;
-         border: 1px solid #ddd;
-         border-radius: 4px;
-         width: 30%;
-         margin-bottom: 20px;
-         text-align: center;
-         padding: 10px;
-     }
-     .main-content .events-grid .event-card img {
-         width: 100%;
-         height: 150px;
-         background-color: #ddd;
-     }
-     .main-content .events-grid .event-card .btn {
-         background-color: #4CAF50;
-         color: #fff;
-         padding: 10px 20px;
-         border: none;
-         border-radius: 4px;
-         text-decoration: none;
-         display: inline-block;
-         margin-top: 10px;
-     }
-     .main-content .view-more {
-         text-align: center;
-         margin-top: 20px;
-     }
-     .main-content .view-more a {
-         text-decoration: none;
-         color: #4CAF50;
-     }
-
-     .testimonials {
-        padding: 50px 0;
-        background-color: #fff;
-        text-align: center;
-    }
-    .testimonials h2 {
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
-    .testimonials .testimonial {
-        display: inline-block;
-        width: 30%;
-        background-color: #f9f9f9;
-        border: 1px solid #ddd;
-        padding: 20px;
-        margin: 0 10px;
-        text-align: left;
-    }
-    .testimonials .testimonial img {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        margin-right: 10px;
-        vertical-align: middle;
-    }
-    .testimonials .testimonial .name {
-        font-weight: bold;
-        vertical-align: middle;
-    }
-    .testimonials .testimonial .rating {
-        color: #6b8e23;
-        vertical-align: middle;
-    }
-    footer {
-        padding: 20px 50px;
-        background-color: #fff;
-        border-top: 1px solid #ddd;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    footer .logo {
-        font-size: 24px;
-        font-weight: bold;
-        color: #6b8e23;
-    }
-    footer .social-icons a {
-        margin: 0 10px;
-        color: #333;
-        text-decoration: none;
-    }
-    footer .links a {
-        margin: 0 10px;
-        color: #333;
-        text-decoration: none;
-    }
-
-    
+<html>
+  <head>
+    <title>CompaniON</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="genuserhomepage.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">CompaniON</div>
+      <div class="search-bar">
+        <input placeholder="What are you looking for?" type="text" />
+      </div>
+      <div class="nav-links">
+        <a href="#"> Home </a>
+        <a href="#"> Companion </a>
+        <a href="#"> How it work </a>
+        <a href="#"> Profile </a>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="section">
+        <div class="section-header">
+          <h2>Discover more</h2>
+        </div>
+        <div class="section-content">
+          <div class="text-content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni est
+              explicabo illo odit? Sit, blanditiis error. Ut vel soluta debitis
+              placeat modi ipsum alias rem numquam dicta. Modi, placeat cum.
+            </p>
+            <a class="btn" href="#"> Discover more </a>
+            <a class="btn-see" href="#"> See all companions </a>
+          </div>
+          <div class="image-content">
+            <img alt="Placeholder image" height="300" src="" width="300" />
+          </div>
+        </div>
+      </div>
+      <div class="icons-section">
+        <div class="icon-box">
+          <i class="fas fa-user-edit"> </i>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+            asperiores est nobis quasi consequuntur delectus accusamus debitis
+            quis a, perspiciatis reprehenderit ullam praesentium. Repudiandae
+            officia, tempora voluptate harum voluptas ratione!
+          </p>
+        </div>
+        <div class="icon-box">
+          <i class="fas fa-search"> </i>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum earum
+            quam commodi itaque molestias maxime pariatur suscipit quo
+            voluptatibus nobis, temporibus animi porro excepturi exercitationem
+            modi doloribus sapiente nam molestiae!
+          </p>
+        </div>
+        <div class="icon-box">
+          <i class="fas fa-calendar-alt"> </i>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            excepturi ratione optio voluptates, eveniet officiis recusandae
+            perspiciatis temporibus architecto sint accusamus quam natus ipsam
+            facilis quisquam. Dignissimos ut praesentium neque.
+          </p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header">
+          <h2>lorem</h2>
+        </div>
+        <div class="tabs">
+          <a class="active" href="#"> Events </a>
+          <a href="#"> Places </a>
+          <a href="#"> Plans </a>
+        </div>
+        <div class="events-grid">
+          <div class="event-card">
+            <img alt="Event image" height="150" src="" width="150" />
+            <p>Event Name</p>
+            <a class="btn" href="#"> View Event </a>
+          </div>
+          <div class="event-card">
+            <img alt="Event image" height="150" src="" width="150" />
+            <p>Event Name</p>
+            <a class="btn" href="#"> View Event </a>
+          </div>
+          <div class="event-card">
+            <img alt="Event image" height="150" src="" width="150" />
+            <p>Event Name</p>
+            <a class="btn" href="#"> View Event </a>
+          </div>
+          <div class="event-card">
+            <img alt="Event image" height="150" src="" width="150" />
+            <p>Event Name</p>
+            <a class="btn" href="#"> View Event </a>
+          </div>
+          <div class="event-card">
+            <img alt="Event image" height="150" src="" width="150" />
+            <p>Event Name</p>
+            <a class="btn" href="#"> View Event </a>
+          </div>
+          <div class="event-card">
+            <img alt="Event image" height="150" src="" width="150" />
+            <p>Event Name</p>
+            <a class="btn" href="#"> View Event </a>
+          </div>
+        </div>
+        <div class="view-more">
+          <a href="#"> View More... </a>
+        </div>
+      </div>
+    </div>
+    <div class="testimonials">
+      <h2>Trusted by Thousands of Happy Customer</h2>
+      <div class="testimonial">
+        <img alt="Customer photo" height="50" src="" width="50" />
+        <span class="name"> Lydia Mae </span>
+        <span class="rating"> ★ 4.5 </span>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          scelerisque leo nec magna.
+        </p>
+      </div>
+      <div class="testimonial">
+        <img alt="Customer photo" height="50" src="" width="50" />
+        <span class="name"> Crystal Tyson </span>
+        <span class="rating"> ★ 4.5 </span>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          scelerisque leo nec magna.
+        </p>
+      </div>
+      <div class="testimonial">
+        <img alt="Customer photo" height="50" src="" width="50" />
+        <span class="name"> Earl John </span>
+        <span class="rating"> ★ 4.5 </span>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          scelerisque leo nec magna.
+        </p>
+      </div>
+    </div>
+    <footer>
+      <div class="logo">CompaniON</div>
+      <div class="social-icons">
+        <a href="#">
+          <i class="fab fa-facebook-f"> </i>
+        </a>
+        <a href="#">
+          <i class="fab fa-twitter"> </i>
+        </a>
+        <a href="#">
+          <i class="fab fa-instagram"> </i>
+        </a>
+        <a href="#">
+          <i class="fab fa-linkedin-in"> </i>
+        </a>
+      </div>
+      <div class="links">
+        <a href="#"> Privacy &amp; Policy </a>
+        <a href="#"> Terms &amp; Condition </a>
+      </div>
+    </footer>
+  </body>
+</html>
